@@ -1,0 +1,125 @@
+body {
+    background: radial-gradient(circle, powderblue 0%, lightpink 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: auto;
+    background-color: #343a40;
+    padding: 5px 10px;
+    text-align: center;
+    border: 2px solid #6a0dad;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0b3ff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    background: whitesmoke;
+    width: 600px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.myVdo {
+    width: 400px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.logoSchool {
+    content: url(resources/mypic1.jpeg);
+    width: 1em;
+    height: auto;
+    vertical-align: middle;
+}
+
+.logoAge {
+    content: url(resources/mypic2.png);
+    width: 1em;
+    height: auto;
+    vertical-align: middle;
+}
+.mdi--id-card {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M4 4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 2h16v4H4zm0 6h4v2H4zm6 0h10v2H10zm-6 4h10v2H4zm12 0h4v2h-4z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.myjourney1, .myjourney2 {
+    width: 45%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.myjourney1 {
+    content: url('resources/my journey1.jpg'); 
+}
+
+.myjourney2 {
+    content: url('resources/my journey2.png'); 
+}
+.myfuture1, .myfuture2 {
+    width: 45%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    background-size: cover; 
+    background-position: center;
+}
+.myfuture1 {
+    content: url('resources/my\ future1.jpg');
+}
+.myfuture2 {
+    content:url('resources/my\ future2.jpg')
+}
